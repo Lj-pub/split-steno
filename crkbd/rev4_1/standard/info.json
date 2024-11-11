@@ -1,0 +1,6 @@
+{
+    "keyboard_name": "Corne v4",
+    "usb": {
+        "pid": "0x0004"
+    }
+}
