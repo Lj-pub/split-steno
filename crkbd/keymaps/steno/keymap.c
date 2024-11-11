@@ -24187,7 +24187,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         case NL: if (!record->event.pressed) { SEND_STRING("dml"); NX = true; SPACE = false; wc = 3; } return false;
         case LD: if (!record->event.pressed) { SEND_STRING("ehl"); NX = true; SPACE = false; wc = 3; } return false;
         case LYC1: if (record->event.pressed) { layer_invert(1); tap_code(KC_LNG1); NX = true; SPACE = false; wc = 1; } return false;
-        case LYC2: if (record->event.pressed) { layer_invert(2); NX = true; SPACE = false; wc = 1; } return false;
 case LC: if (!record->event.pressed) { SEND_STRING("1"); NX = false; SPACE = false; wc = 1; } return false;
 case LT: if (!record->event.pressed) { SEND_STRING("2"); NX = true; SPACE = false; wc = 1; } return false;
 case LK: if (!record->event.pressed) { SEND_STRING("3"); NX = false; SPACE = false; wc = 1; } return false;
